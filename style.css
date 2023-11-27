@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=DynaPuff:wght@400;500;600;700&family=Quicksand&display=swap");
+
+h1 {
+  font-family: "DynaPuff";
+  color: white;
+  font-size: 100;
+}
+
+h2 {
+  font-family: "DynaPuff";
+  color: white;
+  font-size: 100;
+}
+
+body {
+  background-color: black;
+}
+
+/*layout på forside*/
+@media (min-width: 800px) {
+  .video_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 20px;
+    margin-left: 20px;
+    gap: 20px;
+  }
+
+  .video_col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .video_col2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
