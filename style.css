@@ -12,8 +12,23 @@ h2 {
   font-size: 100;
 }
 
+p {
+  font-family: "DynaPuff";
+  color: white;
+  font-size: 100;
+}
+
+footer {
+  font-family: "DynaPuff";
+  color: white;
+  font-size: 100;
+  text-align: center;
+}
+
 body {
   background-color: black;
+  margin: 20px;
+  background-image: url(img/sort_baggrund.png);
 }
 
 /*layout på forside*/
@@ -24,6 +39,8 @@ body {
     margin-right: 20px;
     margin-left: 20px;
     gap: 20px;
+    padding-bottom: 10%;
+    position: center;
   }
 
   .video_col {
@@ -37,9 +54,32 @@ body {
   }
 }
 
-img,
 video {
   width: 100%;
   height: auto;
   display: block;
+}
+
+img {
+  max-width: 142%;
+  height: auto;
+  display: block;
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+.tekst_container {
+  position: absolute;
+  text-align: center;
+  color: white; /* Tekstfarve */
+}
+
+.medvirkende {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.optagelse {
+  text-align: center;
+  padding-top: 10%;
 }
